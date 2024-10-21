@@ -1,0 +1,12 @@
+# Social Media Domains Blocklist
+facebook.com
+instagram.com
+twitter.com
+linkedin.com
+snapchat.com
+tiktok.com
+reddit.com
+pinterest.com
+youtube.com
+whatsapp.com
+

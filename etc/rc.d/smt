@@ -1,0 +1,14 @@
+#!/bin/sh /etc/rc.subr
+
+name="smt"
+rcvar=smt_enable
+
+command="/usr/local/bin/python3"
+command_args="/usr/local/opnsense/mvc/app/plugins/smt/etc/opnsense/scripts/smt/smt_plugin.py"
+pidfile="/var/run/${name}.pid"
+
+load_rc_config $name
+: ${smt_enable:="no"}
+
+run_rc_command "$1"
+
