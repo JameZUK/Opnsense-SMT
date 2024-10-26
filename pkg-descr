@@ -1,0 +1,3 @@
+SMT Plugin for OPNsense
+
+The Social Media Timeout (SMT) plugin for OPNsense is designed to automatically block access to social media platforms after a predefined usage period. It leverages Unbound DNS logs to monitor access and applies DNS-based blocking using Response Policy Zones (RPZ).
