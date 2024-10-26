@@ -1,0 +1,12 @@
+%%DATADIR%%
+%%PYTHON_PKGDIR%%/smt_plugin.py
+%%PYTHON_PKGDIR%%/requirements.txt
+%%PYTHON_PKGDIR%%/config.yaml
+%%LOGDIR%%/smt_plugin.log
+etc/rc.d/smt
+src/GUI/controllers/OPNSense/SMT/ConfigController.php
+src/GUI/models/OPNSense/SMT/Config.php
+src/GUI/templates/OPNSense/SMT/Config/config.ui.php
+src/Resources/javascript/smt.js
+share/examples/smt/social_media_domains.txt
+share/examples/smt/config.yaml
