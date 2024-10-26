@@ -7,7 +7,7 @@ PLUGIN_DESC="Social Media Timeout Plugin for OPNsense"
 all: package
 
 package:
-	pkg create -m Makefile -r . -o ./smt-${PLUGIN_VERSION}.txz
+	pkg create -r . -m pkg-descr -p pkg-plist -o ./smt-${PLUGIN_VERSION}.txz
 
 install:
 	pkg install smt-${PLUGIN_VERSION}.txz
