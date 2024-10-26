@@ -1,0 +1,18 @@
+opnsense:
+  unbound_reload_command: "sudo service unbound reload"
+
+blocklist:
+  repo_url: "https://github.com/gieljnssns/Social-media-Blocklists"
+  local_path: "./blocklists/social_media_domains.txt"
+
+social_media:
+  usage_threshold_hours: 1
+  block_duration_minutes: 30
+
+logging:
+  level: "DEBUG"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: "./logs/smt_plugin.log"
+
+unbound:
+  log_file: "/var/log/unbound.log"
+  rpz_file: "./rpz/social_media.rpz"

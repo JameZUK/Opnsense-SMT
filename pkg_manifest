@@ -1,0 +1,13 @@
+name: smt
+version: '0.1'
+origin: opnsense/plugins/smt
+comment: Social Media Timeout Plugin for OPNsense
+arch: freebsd:12:x86:64
+www: https://github.com/JameZUK/Opnsense-SMT/ 
+maintainer: your-email@example.com
+prefix: /
+desc: |
+  The Social Media Timeout (SMT) plugin for OPNsense automatically blocks access to social media platforms after a predefined usage period. It leverages Unbound DNS logs to monitor access and applies DNS-based blocking using Response Policy Zones (RPZ).
+
+categories: [ opnsense ]
+licenses: [ BSD2CLAUSE ]
